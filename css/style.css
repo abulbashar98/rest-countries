@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+
+
+
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+
+}
+
+.country{
+    padding: 20px;
+    border: 3px solid cyan ;
+    border-radius: 15px;
+    background-color: lemonchiffon;
+}
